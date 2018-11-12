@@ -27,6 +27,7 @@
 %     options = find(~GameState)
 
 %Emmy, were you intending to change this to a findobj?  -Ben
+%Yes that was the goal, but the GUI wasn't set up yet - Emmy
 BoxTag = 'Box4'; %(findobj(gcbo, 'tag'))
 BoxNum = str2num(BoxTag(end));
 
